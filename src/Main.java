@@ -3,19 +3,14 @@ public class Main {
         System.out.println("Ejercicio 4");
 
         int contador = 0;
+        int suma = 0;
         while (contador <= 10){
             System.out.println(contador);
+            suma += contador;
             contador++;
         }
 
-        for (int i = 0; i <= 10; i++){
-            System.out.println(i);
-        }
-
-        do {
-            System.out.println(contador);
-        }while (contador <= 10);
-
+        System.out.println("La suma de todos los números es: " + suma);
 
     }
 }
